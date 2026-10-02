@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "promos": [
+    {
+      "id": "bigger",
+      "title": "A bigger\nMinecraft experience\nstarts here.",
+      "caption": [
+        "Modpacks",
+        "Servers",
+        "Community"
+      ],
+      "art": {
+        "seed": 11,
+        "palette": "teal",
+        "sunX": 0.55
+      }
+    },
+    {
+      "id": "discover",
+      "title": "Find your next\nfavorite modpack.",
+      "caption": [
+        "Discover",
+        "Install",
+        "Play"
+      ],
+      "art": {
+        "seed": 27,
+        "palette": "dusk",
+        "sunX": 0.45
+      }
+    },
+    {
+      "id": "servers",
+      "title": "Play together on\nmodded servers.",
+      "caption": [
+        "Servers",
+        "Friends",
+        "Events"
+      ],
+      "art": {
+        "seed": 5,
+        "palette": "forest",
+        "sunX": 0.6
+      }
+    },
+    {
+      "id": "compat",
+      "title": "Catch mod conflicts\nbefore they crash.",
+      "caption": [
+        "Scan",
+        "Resolve",
+        "Launch"
+      ],
+      "art": {
+        "seed": 42,
+        "palette": "teal",
+        "sunX": 0.4
+      }
+    }
+  ],
+  "community": {
+    "events": [
+      {
+        "id": "winter-realms",
+        "eyebrow": "Seasonal Event",
+        "title": "Winter Realms",
+        "subtitle": "New worlds. New challenges. New rewards.",
+        "body": "Brave the frozen north in our largest seasonal event yet. Exclusive modpack content, limited-time rewards, community builds and more. Available now!",
+        "cta": "Join the Event"
+      },
+      {
+        "id": "build-battle",
+        "eyebrow": "Community Challenge",
+        "title": "Sky Build Battle",
+        "subtitle": "Two weeks. One floating island.",
+        "body": "Build the most impressive sky island you can on the Blockaidia Hub. Top builds get featured in the showcase and on the launcher home.",
+        "cta": "Enter the Battle"
+      },
+      {
+        "id": "pack-jam",
+        "eyebrow": "Creator Program",
+        "title": "Modpack Jam",
+        "subtitle": "Make a pack in a weekend.",
+        "body": "Curate a small modpack around a single theme. Blockaidia checks it for conflicts, and the community votes on the winners.",
+        "cta": "Learn the Rules"
+      }
+    ],
+    "stats": {
+      "members": 124000,
+      "online": 3200,
+      "events": 12
+    },
+    "cards": [
+      {
+        "id": "update",
+        "kind": "update",
+        "title": "Launcher Update v1.21.0",
+        "badge": "NEW",
+        "body": "A faster, smoother, and more powerful Blockaidia. New tools, better performance, and a redesigned instance manager.",
+        "cta": "Read the Patch Notes"
+      },
+      {
+        "id": "guides",
+        "kind": "guides",
+        "title": "Tips & Guides",
+        "body": "Get the most out of your modpacks with expert guides, performance tips and setup tutorials.",
+        "cta": "Browse Guides"
+      },
+      {
+        "id": "showcase",
+        "kind": "showcase",
+        "title": "Community Showcase",
+        "body": "Incredible builds, epic worlds and amazing creations from the Blockaidia community.",
+        "cta": "View Showcase"
+      }
+    ],
+    "builds": [
+      {
+        "id": "aethelgard",
+        "title": "Aethelgard",
+        "mode": "Survival",
+        "mcVersion": "1.20.1",
+        "sizeBytes": 10737418240,
+        "author": "Lunareth",
+        "description": "A massive medieval kingdom with fully dynamic towns, lore, and custom terrain. Built over 6 months by our community.",
+        "likes": 9200
+      },
+      {
+        "id": "clockwork",
+        "title": "Clockwork Spire",
+        "mode": "Creative",
+        "mcVersion": "1.20.1",
+        "sizeBytes": 2576980377.6,
+        "author": "RedstoneRex",
+        "description": "A working Create-powered tower with 40 floors of contraptions.",
+        "likes": 6800
+      },
+      {
+        "id": "verdant-city",
+        "title": "Verdant City",
+        "mode": "Survival",
+        "mcVersion": "1.21.1",
+        "sizeBytes": 3328599654.4,
+        "author": "VerdantFox",
+        "description": "A solarpunk city grown in one Verdant Tech world.",
+        "likes": 5400
+      },
+      {
+        "id": "frost-harbor",
+        "title": "Frost Harbor",
+        "mode": "Creative",
+        "mcVersion": "1.21.1",
+        "sizeBytes": 1288490188.8,
+        "author": "KairoBuilds",
+        "description": "A snowed-in port town lit by lanterns.",
+        "likes": 4900
+      }
+    ],
+    "patchNotes": [
+      {
+        "id": "pn-1",
+        "modpackId": "mp-skyforge",
+        "name": "Skyforge Odyssey",
+        "version": "v2.4.1",
+        "tag": "HOTFIX",
+        "bullets": [
+          "Fixed world generation issues",
+          "Improved server performance",
+          "Updated 12 mods"
+        ],
+        "at": "2026-09-27T17:12:51.918Z"
+      },
+      {
+        "id": "pn-2",
+        "modpackId": "mp-verdant",
+        "name": "Verdant Tech",
+        "version": "v1.2.0",
+        "tag": "MAJOR",
+        "bullets": [
+          "Added new automation blocks",
+          "Rebalanced progression",
+          "Updated to latest dependencies"
+        ],
+        "at": "2026-09-25T17:12:51.920Z"
+      },
+      {
+        "id": "pn-3",
+        "modpackId": "mp-ember",
+        "name": "Ember Realms",
+        "version": "v0.9.5",
+        "tag": "MINOR",
+        "bullets": [
+          "Fixed creature spawning",
+          "New biomes and structures",
+          "Balance adjustments"
+        ],
+        "at": "2026-09-25T17:12:51.920Z"
+      },
+      {
+        "id": "pn-4",
+        "modpackId": "mp-terra",
+        "name": "Terra Machines",
+        "version": "v2.1.1",
+        "tag": "HOTFIX",
+        "bullets": [
+          "Fixed crafting recipes",
+          "Stability improvements",
+          "Updated documentation"
+        ],
+        "at": "2026-09-23T17:12:51.920Z"
+      }
+    ],
+    "creators": [
+      {
+        "id": "cr-1",
+        "name": "Lunareth",
+        "tags": [
+          "Worlds",
+          "Builds",
+          "Mapping"
+        ],
+        "likes": 42000,
+        "following": false
+      },
+      {
+        "id": "cr-2",
+        "name": "RedstoneRex",
+        "tags": [
+          "Modpacks",
+          "Automation"
+        ],
+        "likes": 38000,
+        "following": true
+      },
+      {
+        "id": "cr-3",
+        "name": "VerdantFox",
+        "tags": [
+          "Tutorials",
+          "Modding"
+        ],
+        "likes": 27000,
+        "following": false
+      },
+      {
+        "id": "cr-4",
+        "name": "KairoBuilds",
+        "tags": [
+          "Mega Builds",
+          "Cinematics"
+        ],
+        "likes": 31000,
+        "following": false
+      }
+    ],
+    "upcoming": [
+      {
+        "id": "ev-1",
+        "title": "Winter Realms Festival",
+        "date": "2026-10-12T17:12:51.920Z",
+        "tags": [
+          "Event",
+          "Multiplayer",
+          "New Content"
+        ]
+      },
+      {
+        "id": "ev-2",
+        "title": "Community Build Competition",
+        "date": "2026-10-19T17:12:51.920Z",
+        "tags": [
+          "Creative",
+          "Prizes",
+          "Showcase"
+        ]
+      },
+      {
+        "id": "ev-3",
+        "title": "Modpack Developer Q&A",
+        "date": "2026-10-26T17:12:51.920Z",
+        "tags": [
+          "Live",
+          "AMA",
+          "Community"
+        ]
+      }
+    ],
+    "teaser": {
+      "title": "Changelog Teaser",
+      "body": "Curious what's coming next? Check out a preview of upcoming features, improvements, and ideas we're working on."
+    }
+  },
+  "servers": [
+    {
+      "id": "hypixel",
+      "name": "Hypixel",
+      "address": "mc.hypixel.net",
+      "verified": false,
+      "featured": true,
+      "categories": [
+        "minigames"
+      ],
+      "tags": [
+        "Minigames",
+        "SkyBlock",
+        "Bed Wars",
+        "Duels"
+      ],
+      "description": "One of the biggest Minecraft networks: SkyBlock, Bed Wars, Duels and dozens more games.",
+      "region": "North America"
+    },
+    {
+      "id": "cubecraft",
+      "name": "CubeCraft Games",
+      "address": "play.cubecraft.net",
+      "verified": false,
+      "featured": true,
+      "categories": [
+        "minigames"
+      ],
+      "tags": [
+        "Minigames",
+        "SkyWars",
+        "EggWars"
+      ],
+      "description": "A long-running minigames network with SkyWars, EggWars and parkour.",
+      "region": "Europe"
+    },
+    {
+      "id": "wynncraft",
+      "name": "Wynncraft",
+      "address": "play.wynncraft.com",
+      "verified": false,
+      "featured": true,
+      "categories": [
+        "roleplay"
+      ],
+      "tags": [
+        "MMORPG",
+        "Quests",
+        "Dungeons"
+      ],
+      "description": "A Minecraft MMORPG with a hand-built world, classes, quests and dungeons.",
+      "region": "North America"
+    },
+    {
+      "id": "mcc-island",
+      "name": "MCC Island",
+      "address": "play.mccisland.net",
+      "verified": false,
+      "featured": true,
+      "categories": [
+        "minigames"
+      ],
+      "tags": [
+        "Minigames",
+        "Parkour",
+        "Events"
+      ],
+      "description": "The home of MC Championship minigames, open to everyone.",
+      "region": "Europe"
+    },
+    {
+      "id": "manacube",
+      "name": "ManaCube",
+      "address": "play.manacube.com",
+      "verified": false,
+      "featured": false,
+      "categories": [
+        "survival",
+        "minigames"
+      ],
+      "tags": [
+        "Survival",
+        "Skyblock",
+        "Parkour"
+      ],
+      "description": "Survival, Skyblock, Parkour and more on one network.",
+      "region": "North America"
+    }
+  ]
+}
